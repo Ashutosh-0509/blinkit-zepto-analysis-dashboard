@@ -1,0 +1,63 @@
+# QuickMetrics — Blinkit vs Zepto Analytics Dashboard
+
+An interactive analytics dashboard comparing Blinkit and Zepto using real-world quick-commerce datasets. The project analyzes delivery performance, customer behavior, reviews, and operational KPIs through interactive visualizations.
+
+## Live Demo
+
+Dashboard: https://blinkit-zepto-dashboard.vercel.app/
+
+## Data Sources
+
+| File                                     | Rows    | Source                              |
+| ---------------------------------------- | ------- | ----------------------------------- |
+| blinkit_orders.csv                       | 5,000   | Kaggle — Blinkit Operations Dataset |
+| blinkit_customers.csv                    | 2,500   | Same dataset                        |
+| blinkit_delivery_performance.csv         | 5,000   | Same dataset                        |
+| blinkit_customer_feedback.csv            | 5,000   | Same dataset                        |
+| blinkit_marketing_performance.csv        | 5,400   | Same dataset                        |
+| quick_commerce_data_modified_cleaned.csv | 947,752 | Kaggle — Quick Commerce India       |
+| reviews.csv                              | 4,620   | Real app-store reviews              |
+
+## Key Insights
+
+* Zepto on-time rate: 64.9% vs Blinkit: 14.8%
+* Blinkit average delivery time: 15.1 min vs Zepto: 9.6 min
+* Blinkit review rating: 2.55⭐ vs Zepto: 1.53⭐
+* 23.8% Blinkit customers are inactive (churn risk)
+* Traffic is the leading cause of delayed deliveries
+
+## Features
+
+* KPI Dashboard
+* Delivery Performance Analysis
+* Customer Segmentation
+* Revenue Trends
+* Customer Feedback Analysis
+* Blinkit vs Zepto Comparison
+* Interactive Charts and Visualizations
+
+## Tech Stack
+
+* Python (Pandas, NumPy)
+* Google Colab
+* HTML
+* CSS
+* JavaScript
+* Chart.js
+* GitHub
+* Vercel
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning & Transformation
+3. KPI Calculation
+4. Comparative Analysis
+5. Dashboard Development
+6. Deployment on Vercel
+
+## Author
+
+Ashutosh Amale
+
+B.Tech Computer Engineering Student
